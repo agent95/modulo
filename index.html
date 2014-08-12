@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>modulo app</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<style>
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+  #draggable, #draggable-nonvalid { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  </style>
+ 
+
+
+	</head>
+	<body>
+		<div id="moduloApp" class="col-sm-12" ng-app = "moduloApp">
+			<div ng-controller = "templateController" class="col-sm-6">
+				<div id="cart">
+				  <h3>Select Modules</h3>
+				  <div class="ui-widget-content">
+				    <ol class="connectedSortable">
+				      <li class="placeholder">Add your modules here</li>
+				    </ol>
+				  </div>
+				</div>
+				<div id="trash" class="ui-widget-content">
+					<ul class="connectedSortable">
+						<li class="placeholder">Recycle your modules here</li>
+					</ul>
+				</div>
+				<button ng-click="generate()">Generate</button>
+				<hr/>
+				<label for="templateFile"><h4>Upload template file.</h4></label>
+				<input type="file" id="file" name="file"/>
+				<button ng-click="upload()">Upload</button>
+			</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="js/jquery-2-0-0.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/drag-drop.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+		
+	</body>
+</html>

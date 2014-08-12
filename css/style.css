@@ -1,0 +1,12 @@
+
+label{display: block}
+
+#moduloApp{max-width: 1024px;margin:0 auto;}
+.moduleContent{margin:0 0 10px;}
+.moduleContent .module{display: none}
+.moduleHeader{}
+.moduleHeader a{display: block;text-decoration: none;text-transform: uppercase;}
+.dropzone{height: 100px;background: #eee}
+button{margin:10px 0;}
+#cart{margin: 0 0 10px}
+#cart ol,#trash ul{margin: 0}
