@@ -2,9 +2,9 @@
   "name": "modulo",
   "version": "001",
   "main": "index.html",
-  "bugs": {"email":"roymogoko@gmail.com"},
-  "author": { 	"name" : "Roy Mogoko",
-				"email" : "roymogoko@gmail.com",
+  "bugs": {"email":"***"},
+  "author": { 	"name" : "***",
+				"email" : "***",
 				"url" : "http://buymecoffee.com"
 			},
   "private": true,
